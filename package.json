@@ -1,0 +1,63 @@
+{
+    "webexe_settings": {
+        "linux-x32": false, 
+        "export_dir": "output", 
+        "windows-x64": false, 
+        "download_dir": "/Users/niels/Downloads/Web2Executable.app/Contents/Resources/files/downloads", 
+        "nw_compression_level": 0, 
+        "mac-x32": false, 
+        "windows-x32": false, 
+        "mac-x64": true, 
+        "nw_version": "0.12.1", 
+        "force_download": false, 
+        "linux-x64": false
+    }, 
+    "main": "bin/app.html", 
+    "name": "melter", 
+    "nodejs": true, 
+    "user-agent": "", 
+    "description": "Melter Markdown editor", 
+    "additional_trust_anchors": "", 
+    "single-instance": true, 
+    "inject-js-end": "", 
+    "keywords": [
+        "markdown", 
+        "editor"
+    ], 
+    "window": {
+        "fullscreen": false, 
+        "min_height": 200, 
+        "resizable": true, 
+        "title": "Melter", 
+        "always-on-top": false, 
+        "frame": true, 
+        "show": true, 
+        "kiosk": false, 
+        "kiosk_emulation": false, 
+        "exe_icon": "", 
+        "visible": true, 
+        "as_desktop": false, 
+        "toolbar": false, 
+        "mac_icon": "", 
+        "min_width": 400, 
+        "position": "mouse", 
+        "show_in_taskbar": true, 
+        "height": 500, 
+        "width": 800, 
+        "transparent": false, 
+        "icon": "bin/img/icon.png"
+    }, 
+    "version": "0.1.0", 
+    "snapshot": "", 
+    "node-main": "", 
+    "webkit": {
+        "page-cache": false, 
+        "java": false, 
+        "plugin": true
+    }, 
+    "inject-js-start": "", 
+    "node-remote": "", 
+    "js-flags": "", 
+    "app_name": "Melter", 
+    "chromium-args": ""
+}
