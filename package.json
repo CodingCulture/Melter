@@ -37,7 +37,11 @@
         "exe_icon": "", 
         "visible": true, 
         "as_desktop": false, 
+<<<<<<< HEAD
         "toolbar": false,
+=======
+        "toolbar": false, 
+>>>>>>> f0f314337cd7b060d08f8f3b1f4f33b1543086ba
         "mac_icon": "", 
         "min_width": 400, 
         "position": "mouse", 
