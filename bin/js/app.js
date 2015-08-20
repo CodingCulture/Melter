@@ -4,19 +4,9 @@ var gui = require('nw.gui');
 var fs = require('fs');
 
 var win = gui.Window.get();
-<<<<<<< HEAD
-
-var fileMenu = new gui.Menu();
-fileMenu.append(new gui.MenuItem({label: "Save"}));
-fileMenu.append(new gui.MenuItem({label: "Open"}));
-fileMenu.append(new gui.MenuItem({label: "Help"}));
 var menubar = new gui.Menu({type: "menubar"});
+
 menubar.createMacBuiltin("Melter");
-=======
-var menubar = new gui.Menu({type: "menubar"});
-
-menubar.createMacBuiltin("Meiter");
->>>>>>> f0f314337cd7b060d08f8f3b1f4f33b1543086ba
 win.menu = menubar;
 
 /*
@@ -38,13 +28,8 @@ $(document).ready(function(){
         .on("scroll", function(){
            var top = $(this).scrollTop();
             var accelerator = ($('.preview').get(0).scrollHeight / 100) * (top / ($(this).get(0).scrollHeight) * 100);
-<<<<<<< HEAD
             console.log(top + ' of the ' + $(this).get(0).scrollHeight + ' : ' + accelerator + ' of the ' + $('.preview').get(0).scrollHeight);
             $('.preview').scrollTop($(this).height() + Math.ceil(accelerator) + 20);
-=======
-            console.log(top / $(this).get(0).scrollHeight);
-            $('.preview ').scrollTop(accelerator);
->>>>>>> f0f314337cd7b060d08f8f3b1f4f33b1543086ba
         });
 });
 
@@ -78,10 +63,6 @@ var renderController = function(){
         this.setContent(tree);
     };
     this.setContent = function(data){
-<<<<<<< HEAD
-=======
-        console.log(data);
->>>>>>> f0f314337cd7b060d08f8f3b1f4f33b1543086ba
         $('.preview').html(md.render(data));
     }
 };
@@ -97,10 +78,6 @@ var fileSystemController = function(){
             if(exception){
                 alert('Something went wrong with saving the file. Try again');
             }
-<<<<<<< HEAD
-=======
-            console.log("File saved to " + path);
->>>>>>> f0f314337cd7b060d08f8f3b1f4f33b1543086ba
         });
     };
     this.reader = function(path, target, callback){
